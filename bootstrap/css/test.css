@@ -1,0 +1,44 @@
+form label {
+    display: inline-block;
+    width: 220px;
+    font-weight: bold;
+    mso-space-above: 20px;
+    mso-space-below: 20px;
+    padding-bottom: 20px;
+
+}
+
+body {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px dotted gray;
+    padding: 20px 20px 20px 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+
+}
+
+p {
+    background: navajowhite;
+    text-wrap: normal;
+    border-bottom: 1px solid black;
+    border-style: solid;
+
+}
+
+.orange {
+
+    color: orangered;
+    border-bottom: 1px solid #ff2313;
+
+}
+
+.gurantee {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #a7cece;
+}
+
+}
+

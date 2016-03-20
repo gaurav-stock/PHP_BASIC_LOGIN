@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/test1.css">
+     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7463094/664148/css/fonts.css" />
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/test3.css">
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/test4.css">
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css">
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/test.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+<h1>My Personal Form</h1>
+
+<p class="h4-section"> New Special form </p>
+
+<p class="section-content">Our guarantee: at the lounge, we’re committed to providing
+    you, our guest, with an exceptional experience every time you
+    visit. Whether you’re just stopping by to check in on email
+    over an elixir, or are here for an out-of-the-ordinary dinner,
+    you’ll fid our knowledgeable service staff pay attention to every
+    detail. If you’re not fully satisfid have a Blueberry Bliss Elixir
+    on us.</p>
+
+<form name="Hello" action="report.php" method="post">
+    <fieldset>
+        <legend>Personal information:</legend>
+        <label for="firstname">Firstname:</label>
+        <input id="firstname" type="text" name="firstname"> <br>
+
+        <label for="lastname">Last name:</label>
+        <input id="lastname" type="text" name="lastname" value=""><br>
+
+        <label for="whenithappened">When did it happen?</label>
+        <input type="datetime" id="whenithappened" name="whenithappened"><br/>
+
+        <label for="howlong">How long were you gone?</label>
+        <input type="text" id="howlong" name="howlong"/><br/>
+
+        <label for="howmany">How many did you see?</label>
+        <input type="number" id="howmany" name="howmany"/><br/>
+
+        <label for="aliendescription">Describe them:</label>
+        <input type="text" id="aliendescription" name="aliendescription" size="32"/><br/>
+
+        <label for="whattheydid">What did they do to you?</label>
+        <input type="text" id="whattheydid" name="whattheydid" size="32"/><br/>
+
+        <label for="email">What is your email address?</label>
+        <input type="text" id="email" name="email"/><br/>
+
+        <label for="fangspotted">Have you seen my dog Fang?</label>
+        <input type="radio" id="fangspotted" name="gender" value="male"> Male
+        <input type="radio" id="fangspotted" name="gender" value="female"> Female
+        <br><br>
+        <input type="submit" value="Report Abduction" name="submit"/>
+    </fieldset>
+</form>
+
+</body>
+</html>
